@@ -35,7 +35,7 @@
 
 			<div class="form-inline " style="margin-left: 33%; width: 100%">
 				<input type="text" name="name" value="${Student.name}"
-					class="form-control mb-4 col-4" placeholder="Name">
+					class="form-control mb-4 col-4" placeholder="Name" required>
 
 
 
@@ -44,7 +44,7 @@
 			<div class="form-inline" style="margin-left: 33%; width: 100%">
 
 				<input type="text" name="department" value="${Student.department}"
-					class="form-control mb-4 col-4" placeholder="Department">
+					class="form-control mb-4 col-4" placeholder="Department" required>
 
 
 
@@ -53,7 +53,7 @@
 			<div class="form-inline" style="margin-left: 33%; width: 100%">
 
 				<input type="text" name="country" value="${Student.country}"
-					class="form-control mb-4 col-4" placeholder="Country">
+					class="form-control mb-4 col-4" placeholder="Country" required>
 
 
 
@@ -64,7 +64,6 @@
 		</form>
 
 		<hr>
-		<a href="/StudentRegistration/students/list">Back to Students List</a>
 
 	</div>
 </body>
